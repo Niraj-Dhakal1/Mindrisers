@@ -5,13 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        p{
+        /* p{
             color: blue;
-        }
+        } */
+.ab{
+    color: red;
+}
+.ab2 p{
+    color: black;
+
+}
+.ab2 h2{
+    color: blue;
+}
+/* + le div pachi aaune p element lai color garna help garcha */
+.bx+p{
+    color: brown;
+}
+button:hover{
+    background-color: brown;
+    color: black;
+}
+/* after helps to add content after paragraph */
+/* before helps to add content before the paragraph */
+/* p::after{
+content:'hello';
+color:blue;
+} */
+
+li:nth-child(3n+1){
+    /* nth le first line lai style garcha */
+/* nth ma number din pani paincha jastai(lin:nth-child(1,2,3)) */
+/* bracket ma(odd,even halna pani paincha) */
+    color: blue;
+}
     </style>
+    <!-- universal selector * change the color of all -->
+    <!-- <link rel="stylesheet" href="index.css"> -->
 </head>
 <body>
-    <h1 style="color: red;">K cha khabar</h1>
+    <div class="ab">
+    <h1>K cha khabar</h1>
     <p>where do you wann go dear</p>
+    </div>
+    <div class="ab2"> 
+        <h2>What this handout is about This handout will help you understand how paragraphs are formed</h2>
+        <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.</p>
+    </div>
+    <hr>
+    <div class="bx">
+        <h1>whatsupppp</h1>
+
+    </div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <button>click me</button>
+    <hr>
+    <h3>Lorem ipsum.</h3>
+<ol>
+<li><p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p></li>
+<li><p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p></li>
+<li><p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p></li>
+<li><p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p></li>
+<li><p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p></li>
+</ol>
 </body>
 </html>
