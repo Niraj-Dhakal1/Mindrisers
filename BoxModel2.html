@@ -4,35 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .bx1{
+            height: 200px;
+        width: 200px;
+        border: 3px solid black;
+        position: absolute;
+        /* (position absolute le text mathi box haru rakhna help garcha ani body anusar position change huncha) */
+        background-color:red;
+        left: 100px;
+        z-index: 2;
+        /* (z index le kun postion ma box rakhne vanera help garcha) */
+        }
+        .bx2{
+            height: 200px;
+        width: 200px;
+        border: 3px solid black;
+        position: absolute;
+        background-color:blue;
+        /* top: 213px;
+        left: 210px; */
+        z-index: 1;
+        }
+        .bx3{
+             height: 200px;
+        width: 200px;
+        border: 3px solid black;
+        position: absolute;
+        background-color:black;
+        /* top: 417px;
+        left: 413px; */
+        left: 200px;
+        z-index: 3;
+        }
+        </style>
 </head>
-<style>
-.bx1{
-    height: 200px;
-width: 200px;
-border: 3px solid black;
-position: absolute;
-/* (position absolute le text mathi box haru rakhna help garcha) */
-background-color: rgba(187, 164, 164,0.5);
-}
-.bx2{
-    height: 200px;
-width: 200px;
-border: 3px solid black;
-position: absolute;
-background-color: rgba(187, 164, 164,0.5);
-top: 220px;
-left: 210px;
-}
-.bx3{
-     height: 200px;
-width: 200px;
-border: 3px solid black;
-position: absolute;
-background-color: rgba(187, 164, 164,0.5);
-top: 425px;
-left: 413px;
-}
-</style>
+
 <body>
     <div class="bx1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, placeat.</p></div>
     <div class="bx2">
